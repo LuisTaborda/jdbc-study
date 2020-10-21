@@ -9,6 +9,6 @@ public class UserPosDAO {
 	private Connection connection;
 	
 	public UserPosDAO() {
-		connection = SingleConnection.getConnection()
+		connection = SingleConnection.getConnection();
 	}
 }
